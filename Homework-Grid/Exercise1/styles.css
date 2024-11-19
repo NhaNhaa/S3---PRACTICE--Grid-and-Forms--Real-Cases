@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box.head {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.NameDate {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.NameDate .name {
+    font-weight: bold;
+    color: #333;
+    font-size: 16px;
+}
+
+.NameDate .date {
+    font-size: 12px;
+    color: #888;
+}
+
+.threeDots {
+    font-size: 20px;
+    color: #888;
+    cursor: pointer;
+}
+
+.box.content {
+    position: relative;
+    text-align: center;
+}
+
+.box.content img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.playIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.postDate {
+    font-size: 14px;
+    color: #888;
+    padding: 0 10px 10px;
+    text-align: left;
+}
+
+.box.engagement {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.mini {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon1 {
+    font-size: 20px;
+    color: #666;
+    margin-right: 5px;
+}
+
+.letter {
+    font-size: 14px;
+    color: #333;
+}
+
+.mini:hover .icon1 {
+    color: #1877f2;
+}
+
+.mini:hover .letter {
+    color: #1877f2;
+}
+
+.A-comment {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.co-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.A-comment .co-profile {
+    margin-right: 10px;
+}
+
+.comment-box {
+    background-color: #f5f5f5;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #333;
+}
